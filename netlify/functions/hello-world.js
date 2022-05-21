@@ -1,8 +1,8 @@
-import { Handler } from "@netlify/functions";
+// import { Handler } from "@netlify/functions";
 
-export const handler = async() =>{
+export const handler = async () => {
   return {
     statusCode: 200,
-    body: 'Hello Shaul JS'
+    body: 'Hello Shaul JS',
   }
 }
